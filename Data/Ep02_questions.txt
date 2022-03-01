@@ -1,0 +1,222 @@
+Mi szükséges az override-hoz?
+A) azonos osztály
+B) leszármazott osztály
+C) mindkettő
+D) egyik sem
+ANSWER: B
+Mi NEM igaz a metódusokra?
+A) osztályok részei
+B) mindig van visszatérési értékük
+C) névvel ellátott műveletek
+D) logikailag összefüggő utasítások
+ANSWER: B
+Minek az ellenőrzése történik meg fordítási időben?
+A) egyik sem
+B) formális és aktuális paraméterek típusa
+C) aktuális paraméterek értéke
+D) mindkettő
+ANSWER: B
+Minek az ellenőrzése történik meg futási időben?
+A) egyik sem
+B) formális és aktuális paraméterek típusa
+C) aktuális paraméterek értéke
+D) mindkettő
+ANSWER: C
+Mely paraméterek kerülnek érték szerint átadásra?
+A) primitív típus
+B) referencia típus
+C) mindkettő
+D) egyik sem
+ANSWER: C
+Mely paraméterek kerülnek referencia szerint átadásra?
+A) primitív típus
+B) referencia típus
+C) mindkettő
+D) egyik sem
+ANSWER: D
+A metódus törzsben módosítható-e a kapott paraméter értéke?
+A) igen
+B) nem
+C) referencia esetén
+D) setter metódussal
+ANSWER: A
+A metódus neve része-e a szignatúrának?
+A) igen
+B) nem
+C) overload esetén
+D) override esetén
+ANSWER: A
+A metódusban módosítható-e a hívás aktuális paraméterének értéke? (visszahatás a hívóra)
+A) igen
+B) nem
+C) referencia esetén
+D) setter metódussal
+ANSWER: B
+Mi része a metódus szignatúrának?
+A) láthatósági módosító
+B) visszatérési típus
+C) paraméterek típusa
+D) paraméterek neve
+ANSWER: C
+Hol hozhatók létre azonos nevű metódusok?
+A) csak egy osztályon belül
+B) leszármazott osztályokban
+C) tetszőleges osztályokban
+D) nem hozhatók létre
+ANSWER: C
+Mi NEM igaz a metódus paraméterekre?
+A) formális paraméterek típusának meghatározása futási időben
+B) aktuális paraméterek értékének meghatározása futási időben
+C) paraméte átadás érték szerint történik
+D) formális paraméterek névvel hivatkozhatók
+ANSWER: A
+Mi a metódus overload?
+A) azonos nevűmetódusok létrehozása
+B) eltérő szignatúrájú metódusok létrehozása
+C) mindkettő
+D) egyik sem
+ANSWER: C
+Mi az öröklés célja?
+A) viselkedések bővítés
+B) meglevő vislekdés specializálása
+C) absztrakció
+D) egyszeres felelősség
+ANSWER: A
+Mi a polimorfizmus célja?
+A) viselkedések bővítés
+B) meglevő vislekdés specializálása
+C) absztrakció
+D) egyszeres felelősség
+ANSWER: B
+Mi szükséges az overload-hoz?
+A) azonos osztály
+B) leszármazott osztály
+C) mindkettő
+D) egyik sem
+ANSWER: A
+Mi szükséges az overload-hoz?
+A) azonos szignatúra
+B) eltérő szignatúra
+C) mindkettő
+D) egyik sem
+ANSWER: B
+Mi történik, ha az osztály definíciója nem tartalmaz ősosztályt?
+A) fordítási hiba
+B) a futás során később megadható
+C) nem lesz őse
+D) automatikus őse lesz
+ANSWER: D
+Mi szükséges az override-hoz?
+A) azonos szignatúra
+B) eltérő szignatúra
+C) mindkettő
+D) egyik sem
+ANSWER: A
+Mi igaz a konstruktorra?
+A) lehet alapértelmezett
+B) lehet paramétere
+C) lehet paraméter nélküli
+D) mindhárom
+ANSWER: D
+Mi igaz a konstruktorra?
+A) örökölhető
+B) overload-olható
+C) override-olható
+D) mindhárom
+ANSWER: B
+Melyik komponensek érhetők el csak a deklaráló és leszármazott osztályokban?
+A) private
+B) package private
+C) protected
+D) public
+ANSWER: C
+Melyik komponensek érhetők el csak a deklaráló osztály?
+A) private
+B) package private
+C) protected
+D) public
+ANSWER: A
+Melyik komponensek érhetők el bármely osztályból?
+A) private
+B) package private
+C) protected
+D) public
+ANSWER: D
+Hány őse lehet egy osztálynak?
+A) legalább egy
+B) pontosan egy
+C) legfeljebb egy
+D) bármennyi
+ANSWER: B
+Örökléskor a leszármazott örökli
+A) public komponensek
+B) protected komponensek
+C) private komponensek
+D) mindhárom, kivéve konstruktor
+ANSWER: D
+Az ősosztály konstruktorának hívása minden esetben:
+A) opcionális
+B) automatikus
+C) kötelező
+D) mindhárom
+ANSWER: C
+Mi polimorf deklaráció készítésének feltétele?
+A) csak azonos szignatúra
+B) csak azonos név
+C) azonos név, eltérő szignatúra
+D) azonos név és szignatúra
+ANSWER: D
+Mi nem jellemző példány metódus polimorf deklarációjára?
+A) felülírja az örökölt viselkedést
+B) operátoron is működik
+C) letiltható
+D) a végrehajtott viselkedés nem függ az alkalmazott interfésztől
+ANSWER: B
+Osztály metódus felülírható
+A) igen
+B) nem
+C) override kulcsszóval
+D) azonos szignatúrával
+ANSWER: B
+Mi jellemző osztály metódus újra deklarálására?
+A) elrejti az ős viselkedését
+B) felülírja az ős viselkedését
+C) a végrehajtott viselkedés nem függ az alkalmazott interfésztől
+D) nem lehetséges
+ANSWER: A
+Mikor használandó a final kulcsszó?
+A) állandó tartalom
+B) állandó működés
+C) mindkettő
+D) egyik sem
+ANSWER: C
+Polimorf metódus hívhatja az ős viselkedését
+A) nem
+B) metódus nevével
+C) ősosztály nevével
+D) super referencián keresztül
+ANSWER: D
+Melyik típus átalakítás érvényes minden körülmények között?
+A) implicit szülő -> gyerek
+B) implicit gyerek -> szülő
+C) explicit szülő -> gyerek
+D) explicit bármi -> bármi
+ANSWER: B
+Melyik típus átalakítás érvényes fordítási időben?
+A) implicit szülő -> gyerek
+B) implicit gyerek -> szülő
+C) implicit object -> bármi
+D) egyik sem
+ANSWER: B
+Melyik típus átalakítás érvényes fordítási időben?
+A) implicit szülő -> gyerek
+B) implicit object -> bármi
+C) explicit szülő -> gyerek
+D) egyik sem
+ANSWER: C
+Mi jellemző az érvényes típusátalakításra?
+A) megváltoztatja az objektum típusát
+B) új típusú referenciát hoz létre
+C) új típusú objektumok hoz létre
+D) egyik sem
+ANSWER: B
